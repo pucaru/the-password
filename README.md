@@ -27,7 +27,7 @@ It allows you to view the HTML source file of the page you are viewing, and show
 </html>
 ```
 
-Clicking on the `password.js` hyperlink will direct you to:
+Clicking on the `password.js` link will direct you to:
 
 ```js
 function promptPassword( )
