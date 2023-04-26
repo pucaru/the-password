@@ -26,3 +26,26 @@ It allows you to view the HTML source file of the page you are viewing, and show
 </body>
 </html>
 ```
+
+Clicking on the `password.js` hyperlink will direct you to:
+
+```js
+function promptPassword( )
+{
+
+var pwd = prompt ("Enter your Password: ");
+
+while (pwd != 's0m3t1me$_1t_i5_pr377y_s1aY'){
+alert("Login is incorrect");
+pwd = prompt ("Enter your Password: ");
+}
+
+alert("Password is correct, the flag is LNC2023{s0m3t1me$_1t_i5_pr377y_s1aY}");
+
+}
+promptPassword();
+```
+
+where the password and the flag is located at.
+
+Flag: `LNC2023{s0m3t1me$_1t_i5_pr377y_s1aY}`
